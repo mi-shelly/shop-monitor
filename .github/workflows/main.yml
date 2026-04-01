@@ -2,7 +2,7 @@ name: Shop Monitor
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # alle 30 Minuten
+    - cron: "*/10 * * * *"   # alle 30 Minuten
   workflow_dispatch:          # manuell auslösbar zum Testen
 
 jobs:
